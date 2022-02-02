@@ -8,7 +8,7 @@ responseID = 933850247979995136
 cookie = 418160770321350667
 
 words = ["want to die", "kill myself", "hate myself", "suicide", "not exist", "dont matter", "don't matter", "don't want to be alive", "dont want to be alive", "cutting", "noose", "gun", "revolver"]
-spam_words = ["horny", "cock", "coc", "ass", "clap", "nigga", "nigger", "faggot", "fag", "boner", "penis", "daniel", "ball", "amog", "cum"]
+spam_words = ["add ur own words"]
 
 support = "If you are about to commit suicide, please don't. Suicide is not painless. It will hurt. Alot.\nIt is a permanent solution to a temporary problem. \n\nSuicide Hotline: +1-800-273-8255\nImpartial Facts about Suicide: lostallhope.com\nSuicide Chatting Hotline: iamalive.org, crisistextline.org"
 dumbass = "One of the words in your message contains words that may be off topic. If this is a mistake, please message the bot with the tag ->sus at the start of your message, and cookie will manualy send the message. The message will be completely anonomous."
