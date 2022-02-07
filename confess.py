@@ -11,7 +11,7 @@ cookie = 418160770321350667 #our lord and savior
 words = ["want to die", "kill myself", "hate myself", "suicide", "not exist", "dont matter", "don't matter", "don't want to be alive", "dont want to be alive", "cutting", "noose", "gun", "revolver"] #words that trigger suicide response
 spam_words = ["add ur own words"] # anti-spam shit cuz apparently i need that
 nme = []
-with open('C:\\Users\\ethan\\Desktop\\pyProjects\\names.json') as _file:
+with open('names.json') as _file:
     file = json.load(_file)
     nme = file
 
