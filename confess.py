@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
-import random_name_generator as rng
+import random
+import json
 
 client = commands.Bot(command_prefix='!', help_command=None)
 outputID = 885406314749112351 #venting channel, or output
@@ -9,6 +10,10 @@ cookie = 418160770321350667 #our lord and savior
 
 words = ["want to die", "kill myself", "hate myself", "suicide", "not exist", "dont matter", "don't matter", "don't want to be alive", "dont want to be alive", "cutting", "noose", "gun", "revolver"] #words that trigger suicide response
 spam_words = ["add ur own words"] # anti-spam shit cuz apparently i need that
+nme = []
+with open('C:\\Users\\ethan\\Desktop\\pyProjects\\names.json') as _file:
+    file = json.load(_file)
+    nme = file
 
 support = "If you are about to commit suicide, please don't. Suicide is not painless. It will hurt. Alot.\nIt is a permanent solution to a temporary problem. \n\nSuicide Hotline: +1-800-273-8255\nImpartial Facts about Suicide: lostallhope.com\nSuicide Chatting Hotline: iamalive.org, crisistextline.org" #suicide message
 dumbass = "One of the words in your message contains words that may be off topic. If this is a mistake, please message the bot with the tag ->sus at the start of your message, and cookie will manualy send the message. The message will be completely anonomous." #anti-spam filter message
@@ -17,7 +22,7 @@ dumbass = "One of the words in your message contains words that may be off topic
 @commands.dm_only()
 async def on_message(message):
     user = message.author
-    name = rng.generate_one() + ": "
+    name = nme[random.randint(0, len(nme) - 1)] + ": "
     msg = message.content
 
     if msg.lower().startswith("HIDDEN COMMAND"): #announcement command, hidden so u guys cant impersonate me
