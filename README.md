@@ -4,10 +4,11 @@ It attaches a random name to each message for easy response and discussion.
 
 ## Bot in Production:
 
-![image](https://user-images.githubusercontent.com/72627687/168909970-2f8ae2a9-7ee8-43db-aae7-417d2abf5315.png)
+![image](https://user-images.githubusercontent.com/72627687/204363024-6e2a0a6a-46aa-4fd7-8d5b-4514048ec352.png)
 
 Here, a user has sent a private message to the bot. The bot relayed it anonomously to a public chat.
 
-![image (3)](https://user-images.githubusercontent.com/72627687/168910952-1645d35d-c9e2-4262-a87e-a92a64c65c52.png)
+![image](https://user-images.githubusercontent.com/72627687/204363132-274733cb-1964-40a8-9607-f7e43362ebbf.png)
 
-This is a response to the message in a seprate channel. 
+This is a response to the message in a seprate channel. <br>
+This is a rather silly example, but topics can get serious depending on the group that uses the bot. <br> <br> In cases of unecuseable messages, there is a block list implemented where messages that contain negative words are manualy reviewed.
